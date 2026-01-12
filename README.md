@@ -189,7 +189,7 @@ SceneRefAttributeValidator.Validate(script);
 ```
 - One-click to regenerate all references for every script under `Tools > Validate All Refs`.
 - Regenerate references for any component by right-clicking the component and selecting `Validate Refs`.
-![image](https://user-images.githubusercontent.com/2164691/215190393-192083fc-4c83-42da-8ca4-a93d2349aaa2.png)
+![image](Documentation~/images/215190393-192083fc-4c83-42da-8ca4-a93d2349aaa2.png)
 
 ### License
 
