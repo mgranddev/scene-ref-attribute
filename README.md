@@ -2,6 +2,9 @@
 
 [![openupm](https://img.shields.io/npm/v/com.kylewbanks.scenerefattribute?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.kylewbanks.scenerefattribute/)
 
+> [!IMPORTANT]
+> This is a separate fork. The original repository can be found here: https://github.com/KyleBanks/scene-ref-attribute
+
 Unity C# attribute for serializing **component and interface references** within the scene or prefab during `OnValidate`, rather than using `GetComponent*` functions in `Awake/Start/OnEnable` at runtime. 
 
 This project aims to provide:
