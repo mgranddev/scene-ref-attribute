@@ -1,7 +1,4 @@
 # Scene Reference Attribute
-
-[![openupm](https://img.shields.io/npm/v/com.kylewbanks.scenerefattribute?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.kylewbanks.scenerefattribute/)
-
 > [!IMPORTANT]
 > This is a separate fork. The original repository can be found here: https://github.com/KyleBanks/scene-ref-attribute
 
@@ -17,15 +14,7 @@ This project aims to provide:
 
 **Basic**
 
-You can simply clone (or download this repo as a zip and unzip) into your `Assets/` directory. 
-
-**UPM**
-
-[Install with UPM](https://openupm.com/packages/com.kylewbanks.scenerefattribute) on the command-line like so:
-
-```
-openupm add com.kylewbanks.scenerefattribute
-```
+You can simply clone (or download this repo as a zip and unzip) into your `Assets/` directory.
 
 ### Why?
 
