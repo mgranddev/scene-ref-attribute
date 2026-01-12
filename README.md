@@ -193,4 +193,4 @@ SceneRefAttributeValidator.Validate(script);
 
 ### License
 
-This project is made available under the [MIT License](./LICENSE), so you're free to use it for any purpose.
+This project is made available under the [MIT License](./LICENSE.md), so you're free to use it for any purpose.
