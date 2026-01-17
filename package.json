@@ -7,5 +7,12 @@
         "name": "Kyle Banks",
         "url": "https://github.com/KyleBanks/scene-ref-attribute"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@mgranddev"
+    },
+    "repository": {
+        "url": "git@github.com:mgranddev/scene-ref-attribute.git",
+        "type": "git"
+    }
 }
