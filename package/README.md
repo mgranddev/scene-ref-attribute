@@ -12,9 +12,30 @@ This project aims to provide:
 
 ### Installation
 
-**Basic**
+#### From Git URL
 
-You can simply clone (or download this repo as a zip and unzip) into your `Assets/` directory.
+You can install this package from the git URL:
+```
+https://github.com/mgranddev/scene-ref-attribute.git?path=/package
+```
+
+#### By Name (Scoped Registry - GitHub Packages)
+
+> [!IMPORTANT]
+> This is an advanced installation process.
+
+You can also install from GitHub Packages:
+
+**Scoped Registry Config**
+- **URL:** https://npm.pkg.github.com/@mgranddev
+- **Scope(s):** dev.mgrand
+
+**Package Installation**
+- **Name:** dev.mgrand.scene-ref-attribute
+
+You must have a GitHub personal access token (classic) configured for this to work.
+
+For further details, see this discussion: https://discussions.unity.com/t/using-github-packages-registry-with-unity-package-manager/784073
 
 ### Why?
 
