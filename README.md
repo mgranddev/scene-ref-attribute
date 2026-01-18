@@ -22,7 +22,7 @@ This package can be easily installed from GitHub using its git URL:
 2. **Add Package:** Plus Button *(top-left corner)* -> Install package from git URL
 3. **Copy and Paste this URL:**
 ```
-https://github.com/mgranddev/scene-ref-attribute.git?path=/package
+https://github.com/mgranddev/scene-ref-attribute.git?path=/package#v0.1.0
 ```
 
 ### Scoped Registry (GitHub Packages)

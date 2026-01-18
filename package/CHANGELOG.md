@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-01-18
+
 ### Added
 - Releases published to GitHub Packages will be signed (Unity 6.3 best practice). This should have no impact on compatibility with previous versions of Unity.
 
@@ -28,4 +30,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - License and documentation URLs have been removed from `package.json` to minimize maintenance. `LICENSE.md` and `README.md` both remain in the package.
 - OpenUPM support has been removed.
 
-[Unreleased]: https://github.com/mgranddev/scene-ref-attribute/compare/8d3a0ee421588faaf373e0fe4b8f4577a522f029...HEAD
+[Unreleased]: https://github.com/mgranddev/scene-ref-attribute/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/mgranddev/scene-ref-attribute/compare/8d3a0ee421588faaf373e0fe4b8f4577a522f029...v0.1.0
