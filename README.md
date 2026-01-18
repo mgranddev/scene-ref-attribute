@@ -12,9 +12,12 @@ This project aims to provide:
 
 ### Installation
 
-**Basic**
+#### From Git URL
 
-You can simply clone (or download this repo as a zip and unzip) into your `Assets/` directory.
+You can install this package from the git URL:
+```
+https://github.com/mgranddev/scene-ref-attribute.git
+```
 
 ### Why?
 
