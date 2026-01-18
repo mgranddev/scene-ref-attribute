@@ -10,22 +10,22 @@ This project aims to provide:
 - resolution, validation and serialisation of references **(including interface types!)**
 - determinate results so you never have to worry about Unity losing your references, they'll always be safely regenerated
 
-### Installation
+## Installation
 
-#### From Git URL
+### From Git URL
 
 You can install this package from the git URL:
 ```
 https://github.com/mgranddev/scene-ref-attribute.git
 ```
 
-### Why?
+## Why?
 
 Mainly to avoid framerate hiccups when additively loading scenes in [Farewell North](https://store.steampowered.com/app/1432850/Farewell_North/), but I also find this to be a much cleaner way to declare references.
 
 For more details on how this project came about, check out this [Farewell North devlog on YouTube](https://youtu.be/lpBIbmTPDQc).
 
-### How?
+## How?
 
 Instead of declaring your references, finding them in `Awake` or assigning them in the editor, and then validating them in `OnValidate` like so: 
 
@@ -74,7 +74,7 @@ private void OnValidate()
 
 The `ValidateRefs` function is made available as a `MonoBehaviour` extension for ease of use on any `MonoBehaviour` subclass, and handles finding, validating and serialisating the references in the editor so they're always available at runtime. Alternatively you can extend `ValidatedMonoBehaviour` instead and `ValidateRefs` will be invoked automatically. 
 
-### Serialising Interfaces 
+## Serialising Interfaces 
 
 By default Unity doesn't allow you to serialise interfaces, but this project allows it by wrapping them with the `InterfaceRef` type, like so:
 
@@ -93,7 +93,7 @@ IDoorOpener doorOpener = this._doorOpener.Value;
 doorOpener.OpenDoor();
 ```
 
-### Attributes
+## Attributes
 
 - `Self` looks for the reference on the same game object as the attributed component using `GetComponent(s)()`
 - `Parent` looks for the reference on the parent hierarchy of the attributed components game object using `GetComponent(s)InParent()`
@@ -101,7 +101,7 @@ doorOpener.OpenDoor();
 - `Scene` looks for the reference anywhere in the scene using `FindAnyObjectByType` and `FindObjectsOfType`
 - `Anywhere` will only validate the reference isn't null, but relies on you to assign the reference yourself.
 
-### Flags
+## Flags
 
 The attributes all allow for optional flags to customise their behaviour: 
 
@@ -126,7 +126,7 @@ private ParticleSystem[] _particles;
 - `Editable` only affects `Parent`, `Child` and `Scene`, and allows you to edit the resulting reference. This is useful, for example, if you have two children who would satisfy a reference but you want to manually select which reference is used. 
 - `Filter` allows you to implement custom logic to filter references. See **Filters** below.
 - `EditableAnywhere` has the same effect as `Editable` but will not validate the supplied reference. This allows you to manually specify a reference with an automatic fallback.
-### Filters
+## Filters
 
 This project also provides support for filtering references based on custom logic. 
 
@@ -179,7 +179,7 @@ Additional examples:
 
 **Note:** this filter is only invoked at edit time, so you can't rely on any runtime information for filtering. In that case you will still need to filter your references in Awake or similar.  
 
-### Features 
+## Features 
 
 - Supports all `MonoBehaviour` and `Component` types (basically anything you can use with `GetComponent`), plus interfaces!
 - Determinate results, so there's no worry of Unity forgetting all your serialised references (which has happened to me a few times on upgrading editor versions). All references will be reassigned automatically.  
@@ -194,6 +194,6 @@ SceneRefAttributeValidator.Validate(script);
 - Regenerate references for any component by right-clicking the component and selecting `Validate Refs`.
 ![image](Documentation~/images/215190393-192083fc-4c83-42da-8ca4-a93d2349aaa2.png)
 
-### License
+## License
 
 This project is made available under the [MIT License](./LICENSE.md), so you're free to use it for any purpose.
