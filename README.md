@@ -10,4 +10,40 @@ This project aims to provide:
 - resolution, validation and serialisation of references **(including interface types!)**
 - determinate results so you never have to worry about Unity losing your references, they'll always be safely regenerated
 
+## Installation
+
+*(written for Unity 6.3, but these steps will be similar for other versions)*
+
+### Recommended: Git URL
+
+This package can be easily installed from GitHub using its git URL:
+
+1. **Open Package Manager:** Window -> Package Management -> Package Manager
+2. **Add Package:** Plus Button *(top-left corner)* -> Install package from git URL
+3. **Copy and Paste this URL:**
+```
+https://github.com/mgranddev/scene-ref-attribute.git?path=/package
+```
+
+### Scoped Registry (GitHub Packages)
+
+> [!IMPORTANT]
+> This is an advanced installation process.
+
+You can also install from GitHub Packages:
+
+**Scoped Registry Config**
+- **Name:** GitHub Packages (@mgranddev)
+- **URL:** https://npm.pkg.github.com/@mgranddev
+- **Scope(s):** dev.mgrand
+
+**Package Installation**
+- **Name:** dev.mgrand.scene-ref-attribute
+
+You must have a GitHub personal access token (classic) configured for this to work.
+
+For further details, see this discussion: https://discussions.unity.com/t/using-github-packages-registry-with-unity-package-manager/784073
+
+## Package Location
+
 The package contents can be found in the `package` directory. For further details about this package, please see [`package/README.md`](package/README.md).
