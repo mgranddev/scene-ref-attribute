@@ -12,9 +12,15 @@ This project aims to provide:
 
 ## Installation
 
-### From Git URL
+*(written for Unity 6.3, but these steps will be similar for other versions)*
 
-You can install this package from the git URL:
+### Git URL
+
+This package can be easily installed from GitHub using its git URL:
+
+1. **Open Package Manager:** Window -> Package Management -> Package Manager
+2. **Add Package:** Plus Button *(top-left corner)* -> Install from git URL
+3. **Copy and Paste this URL:**
 ```
 https://github.com/mgranddev/scene-ref-attribute.git
 ```
